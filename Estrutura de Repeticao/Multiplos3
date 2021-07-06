@@ -1,0 +1,11 @@
+using System;
+					
+public class Multiplos3
+{
+	public static void Main()
+	{
+		int g = 0;
+		for(int f = 1; f <= 5; f++)
+			Console.WriteLine(g = g + 3);	
+	}
+}
