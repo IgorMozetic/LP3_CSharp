@@ -4,7 +4,7 @@ public class Algarismos
 {
 	public static void Main()
 	{
-		int num, algarismo, soma = 0;
+		int num, algarismo, soma =0;
 		Console.Write("Entre com um número inteiro positivo: ");
 		num = int.Parse(Console.ReadLine());
 		
