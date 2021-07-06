@@ -1,0 +1,25 @@
+using System;
+					
+public class Multiplos_11_13_17
+{
+	public static void Main()
+	{
+		int resp;
+		Console.Write("Entre com um número: ");
+		resp = int.Parse(Console.ReadLine());
+		do {
+			
+			if(resp % 11 == 0)	{
+				Console.Write("O múltiplo " + resp + " está ente os múltiplos de 11");
+				break;
+			} else if(resp % 13 == 0)	{
+				Console.Write("O múltiplo " + resp + " está ente os múltiplos de 13");
+				break;
+			} else if(resp % 17 == 0)	{ 
+				Console.Write("O múltiplo " + resp + " está ente os múltiplos de 17");
+				break;
+			} else 
+				resp++;
+		} while(resp != 0);
+	}
+}
