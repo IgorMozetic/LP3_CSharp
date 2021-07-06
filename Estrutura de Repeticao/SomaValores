@@ -1,0 +1,15 @@
+using System;
+					
+public class SomaValores
+{
+	public static void Main()
+	{
+	int soma = 0;
+	Console.WriteLine("Entre com 10 valores: ");
+		for(int cont = 1; cont <= 10; cont++){
+			int resp = int.Parse(Console.ReadLine());
+			soma += resp;
+		}
+		Console.WriteLine("A soma dos valores é igual a:" + soma);
+	}
+}
