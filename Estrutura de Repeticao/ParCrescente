@@ -1,0 +1,17 @@
+using System;
+					
+public class ParCrescente
+{
+	public static void Main()
+	{
+		Console.Write("Entre com um valor par: ");a
+		int resp = int.Parse(Console.ReadLine());
+		if(resp % 2 == 0) {
+			for(int cont = 1; cont < resp; cont++) {
+				 if(cont % 2 == 0)
+					 Console.WriteLine(cont);
+			}
+		} else
+			Console.Write("Entre com um valor par, Por favor!");
+	}
+}
