@@ -1,14 +1,16 @@
 using System;
-					
 public class SomasN
 {
-	public static void Main()
-	{
+	public static void Main() {
+		
 		Console.Write("Entre com um valor: ");
 		int resp = int.Parse(Console.ReadLine());
-		for(int cont = 0; cont < resp; cont++) {
-			 if(cont % 2 == 1)
-				 Console.WriteLine(cont);
-		}
+		if (resp > 0) {
+			for(int cont = 0; cont <= resp + resp; cont++) {
+				if(cont % 2 == 1)
+					Console.WriteLine(cont);
+				}
+			} else
+				Console.WriteLine("Número inválido");
 	}
 }
