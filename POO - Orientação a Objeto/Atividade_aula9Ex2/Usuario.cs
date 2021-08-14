@@ -13,9 +13,9 @@ namespace Atividade_aula9Ex2
         private string senha;
         private Postagem[] postagens = new Postagem[3];
 
-        public string Nome { get => nome; set => nome = value; }
-        public string Sobrenome { get => sobrenome; set => sobrenome = value; }
-        public string Senha { get => senha; set => senha = value; }
-        internal Postagem[] Postagens { get => postagens; set => postagens = value; }
+        public string Nome { get; set; }
+        public string Sobrenome { get; set; }
+        public string Senha { get; set; }
+        internal Postagem[] Postagens { get; set; }
     }
 }
