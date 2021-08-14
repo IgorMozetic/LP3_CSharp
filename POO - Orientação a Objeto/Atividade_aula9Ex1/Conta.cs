@@ -15,5 +15,6 @@ namespace Atividade_aula9Ex1
         public string Agencia { get; set; }
         public int Numero { get; set; }
         public float Saldo { get; set; }
+
     }
 }
