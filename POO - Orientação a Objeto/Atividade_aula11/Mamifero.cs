@@ -10,9 +10,9 @@ namespace Atividade_aula11
     {
         public Mamifero()
         {
-            this.Caracteristicas();
+            this.exibirCaracterísticas();
         }
-        protected override void Caracteristicas()
+        protected override void exibirCaracterísticas()
         {
             Console.Write("Pele: cabelos e pelos, Ambiente: quente e frio.\n\n");
         }

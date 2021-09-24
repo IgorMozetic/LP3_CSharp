@@ -10,9 +10,9 @@ namespace Atividade_aula11
     {
         public Anfibio()
         {
-            this.Caracteristicas();
+            this.exibirCaracterísticas();
         }
-        protected override void Caracteristicas()
+        protected override void exibirCaracterísticas()
         {
             Console.Write("Pele: úmida, Ambiente: úmido e quente.\n\n");
         }

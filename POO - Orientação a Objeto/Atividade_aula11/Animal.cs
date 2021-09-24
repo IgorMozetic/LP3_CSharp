@@ -8,7 +8,7 @@ namespace Atividade_aula11
 {
     class Animal
     {
-        protected virtual void Caracteristicas() 
+        protected virtual void exibirCaracterísticas() 
         {
             Console.Write("Pele e Ambiente.\n\n");   
         }

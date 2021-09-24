@@ -10,9 +10,9 @@ namespace Atividade_aula11
     {
         public Reptil()
         {
-            this.Caracteristicas();
+            this.exibirCaracterísticas();
         }
-        protected override void Caracteristicas()
+        protected override void exibirCaracterísticas()
         {
             Console.Write("Pele: escamas, Ambiente: quente.\n\n");
         }

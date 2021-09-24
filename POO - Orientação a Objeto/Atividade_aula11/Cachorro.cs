@@ -10,9 +10,9 @@ namespace Atividade_aula11
     {
         public Cachorro()
         {
-            this.Caracteristicas();
+            this.exibirCaracterísticas();
         }
-        protected override void Caracteristicas()
+        protected override void exibirCaracterísticas()
         {
             Console.Write("Pele: pelos, Ambiente: doméstico, ruas, parques.\n\n");
         }

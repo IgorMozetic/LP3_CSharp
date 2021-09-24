@@ -10,9 +10,9 @@ namespace Atividade_aula11
     {
         public Jacare()
         {
-            this.Caracteristicas();
+            this.exibirCaracterísticas();
         }
-        protected override void Caracteristicas()
+        protected override void exibirCaracterísticas()
         {
             Console.Write("Pele: placas muito duras, como serrilhado, Ambiente: rios, lagos e pântanos.\n\n");
         }

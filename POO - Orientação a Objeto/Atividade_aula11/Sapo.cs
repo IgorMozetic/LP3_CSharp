@@ -10,9 +10,9 @@ namespace Atividade_aula11
     {
         public Sapo()
         {
-            this.Caracteristicas();
+            this.exibirCaracterísticas();
         }
-        protected override void Caracteristicas()
+        protected override void exibirCaracterísticas()
         {
             Console.Write("Pele: seca, glandular e vascularizada, Ambiente: riachos, lagoas, igarapés e brejos.\n\n");
         }
