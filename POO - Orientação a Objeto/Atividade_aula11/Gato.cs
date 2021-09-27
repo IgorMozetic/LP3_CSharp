@@ -10,7 +10,7 @@ namespace Atividade_aula11
     {
         public Gato()
         {
-           this.exibirCaracterísticas();
+            // this.exibirCaracterísticas();
         }
         protected override void exibirCaracterísticas()
         {
