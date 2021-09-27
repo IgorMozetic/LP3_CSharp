@@ -14,7 +14,9 @@ namespace Atividade_aula11
         }
         protected override void exibirCaracterísticas()
         {
-            Console.Write("Pele: cabelos e pelos, Ambiente: quente e frio.\n\n");
+            base.exibirCaracterísticas();
+            Console.Write(" dos mamíferos\n");
+            Console.Write("Pele: cabelos e pelos, Ambiente: quente e frio.\n");
         }
     }
 }

@@ -14,7 +14,8 @@ namespace Atividade_aula11
         }
         protected override void exibirCaracterísticas()
         {
-            Console.Write("Pele: pelos, Ambiente: doméstico, ruas, parques.\n\n");
+            base.exibirCaracterísticas();
+            Console.Write("Cachorro -> Pele: pelos, Ambiente: doméstico, ruas, parques.\n\n");
         }
     }
 }

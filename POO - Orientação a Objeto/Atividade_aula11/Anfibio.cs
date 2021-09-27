@@ -14,7 +14,9 @@ namespace Atividade_aula11
         }
         protected override void exibirCaracterísticas()
         {
-            Console.Write("Pele: úmida, Ambiente: úmido e quente.\n\n");
+            base.exibirCaracterísticas();
+            Console.Write(" dos anfíbios\n");
+            Console.Write("Pele: úmida, Ambiente: úmido e quente.\n");
         }
     }
 }

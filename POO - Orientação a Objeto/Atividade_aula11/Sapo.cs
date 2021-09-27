@@ -14,7 +14,8 @@ namespace Atividade_aula11
         }
         protected override void exibirCaracterísticas()
         {
-            Console.Write("Pele: seca, glandular e vascularizada, Ambiente: riachos, lagoas, igarapés e brejos.\n\n");
+            base.exibirCaracterísticas();
+            Console.Write("Sapos -> Pele: seca, glandular e vascularizada, Ambiente: riachos, lagoas, igarapés e brejos.\n\n");
         }
     }
 }

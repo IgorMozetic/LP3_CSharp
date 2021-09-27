@@ -14,7 +14,9 @@ namespace Atividade_aula11
         }
         protected override void exibirCaracterísticas()
         {
-            Console.Write("Pele: escamas, Ambiente: quente.\n\n");
+            base.exibirCaracterísticas();
+            Console.Write(" dos répteis\n");
+            Console.Write("Pele: escamas, Ambiente: quente.\n");
         }
 
     }

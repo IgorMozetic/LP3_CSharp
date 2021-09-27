@@ -10,7 +10,7 @@ namespace Atividade_aula11
     {
         protected virtual void exibirCaracterísticas() 
         {
-            Console.Write("Pele e Ambiente.\n\n");   
+            Console.Write("Pele e Ambiente");   
         }
     }
 }

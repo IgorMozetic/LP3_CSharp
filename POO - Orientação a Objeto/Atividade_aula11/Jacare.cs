@@ -14,7 +14,8 @@ namespace Atividade_aula11
         }
         protected override void exibirCaracterísticas()
         {
-            Console.Write("Pele: placas muito duras, como serrilhado, Ambiente: rios, lagos e pântanos.\n\n");
+            base.exibirCaracterísticas();
+            Console.Write("Jacaré -> Pele: placas muito duras, como serrilhado, Ambiente: rios, lagos e pântanos.\n\n");
         }
     }
 }
