@@ -14,14 +14,14 @@ namespace Atividade_aula12
         {
             base.setCor("Rosa");
             this.raio = raio;
-            Console.WriteLine("Área do Quadrado: " + this.calculcarArea() + "\n");
+            Console.WriteLine("Área do Círculo: " + this.calculcarArea() + "\n");
         }
 
         public Circulo(string cor, double raio)
         {
             base.setCor(cor);
             this.raio = raio;
-            Console.WriteLine("Área do Quadrado: " + this.calculcarArea() + "\n");
+            Console.WriteLine("Área do Círculo: " + this.calculcarArea() + "\n");
         }
         public override double calculcarArea()
         {
